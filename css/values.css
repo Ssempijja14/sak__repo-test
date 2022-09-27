@@ -1,0 +1,157 @@
+
+button {
+    border-radius: 0;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    overflow: visible;
+    text-transform: none;
+}
+
+button,[type=button] {
+    -webkit-appearance: button;
+}
+
+button::-moz-focus-inner,[type=button]::-moz-focus-inner {
+    padding: 0;
+    border-style: none;
+}
+
+h1 {
+    font-size: 5.9625rem;
+}
+
+h3 {
+    font-size: 3.0375rem;
+}
+
+h4 {
+    font-size: 2.025rem;
+}
+
+@media (min-width: 1200px) {
+    .col-xl-3 {
+        flex:0 0 25%;
+        max-width: 25%;
+    }
+
+    .col-xl-8 {
+        flex: 0 0 66.6666666667%;
+        max-width: 66.6666666667%;
+    }
+}
+
+/*****************************************************/
+/*****************************************************/
+/*****************************************************/
+/*****************************************************/
+.text-responsive-h1 {
+    font-size: calc(4.8vw + 24px);
+    line-height: 1em;
+}
+
+@media (min-width: 1500px) {
+    .text-responsive-h1 {
+        font-size:96px;
+    }
+}
+
+@media (max-width: 375px) {
+    .text-responsive-h1 {
+        font-size:42px;
+    }
+}
+
+.values-card>div {
+    border: 1px solid transparent;
+}
+
+.mt-heading {
+    margin-top: 4.5rem;
+    margin-bottom: 5.5rem;
+}
+
+@media (min-width: 768px) {
+    .mt-heading {
+        min-height:350px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .mt-heading {
+        margin-top:3.5rem;
+    }
+}
+
+.values_title:after {
+    content: "";
+    display: block;
+    margin-top: 0rem;
+    border-bottom: 5px solid #142336;
+    border-bottom-color: inherit;
+    border-radius: 4px;
+    width: 38px;
+}
+
+.values_title--small-space:after {
+    margin-top: 1.5rem;
+}
+
+.col-xl-3, .col-md-6  {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media (min-width: 1200px) {
+    .col-xl-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
+
+.text-responsive-h4 {
+    font-size: calc(0.8888888889vw + 18.6666666667px);
+    line-height: 1.4em;
+}
+
+@media (min-width: 1500px) {
+    .text-responsive-h4 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 375px) {
+    .text-responsive-h4 {
+        font-size: 22px;
+    }
+}
+
+.values-card > div {
+    border: 1px solid transparent;
+    transition: background-color 0.3s ease;
+}
+
+.values-card:hover > div {
+    background-color: transparent !important;
+    border-color: #fff;
+}
+
+.values-card:hover > div .values-card__title, 
+.values-card:hover > div .values-card__description {
+    color: #fff !important;
+}
+
+.values_title--small-space:after {
+    margin-top: 1.5rem;
+}
+
+.mt-6, .my-6 {
+    margin-top: 4.5rem !important;
+}
+
+.mb-6, .my-6 {
+    margin-bottom: 4.5rem !important;
+}

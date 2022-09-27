@@ -1,0 +1,505 @@
+
+/* Xenois_Soft_Pro_font */
+@font-face {
+    font-family: Xenois Soft Pro;
+    src: url("../../fonts/Linotype\ -\ Xenois\ Soft\ Pro.otf") format('truetype');
+}
+
+@font-face {
+    font-family: Xenois Soft Pro Light;
+    src: url("../../fonts/Linotype\ -\ Xenois\ Soft\ Pro\ Light.otf") format('truetype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Xenois Soft Pro LightIt;
+    src: url("../../fonts/Linotype\ -\ Xenois\ Soft\ Pro\ Light\ Italic.otf") format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Xenois Soft Pro Bold;
+    src: url("../../fonts/Linotype\ -\ Xenois\ Soft\ Pro\ Bold.otf") format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Xenois Soft Pro Heavy;
+    src: url("../../fonts/Linotype\ -\ Xenois\ Soft\ Pro\ Heavy.otf") format('truetype');
+    font-weight: bolder;
+}
+
+@font-face{
+    font-family: Xenois Soft W01 Bold;
+    src: url(../../fonts/Xenois\ Soft\ W01\ Bold.otf);
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: normal;
+    font-display: swap;
+}
+
+@font-face{
+    font-family: Futura Bold;
+    src: url(../../fonts/Futura\ Bold.otf);
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: normal;
+    font-display: swap;
+}
+
+@font-face{
+    font-family: Futura Book;
+    src: url(../../fonts/Futura\ Book.otf);
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: normal;
+    font-display: swap;
+}
+
+@font-face{
+    font-family: Futura Medium;
+    src: url(../../fonts/Futura\ Medium\ Regular.ttf);
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: normal;
+    font-display: swap;
+}
+
+@font-face{
+    font-family: Futura Light;
+    src: url(../../fonts/Futura\ Light.otf);
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: normal;
+    font-display: swap;
+}
+
+@font-face{
+    font-family: Tondo Bold;
+    src: url(../../fonts/Tondo\ W01\ Bold.otf);
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: normal;
+    font-display: swap;
+}
+
+html,body,div,span,applet,object,iframe,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+    display: block
+}
+
+body {
+    line-height: 1;
+    overflow-x: hidden
+}
+
+
+* {
+    box-sizing: border-box
+}
+
+/**/
+.container {
+    max-width: 1000px;
+    margin: 0 12vw;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0/*
+    padding-left: 48px;
+    padding-right: 48px*/
+}
+
+@media (min-width: 1440px) {
+    .container {
+        max-width:1100px;
+        padding-left: 0;
+        padding-right: 0;/*
+        padding-left: 52px;
+        padding-right: 52px;*/
+        margin: 0 12vw;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        max-width:0;
+        padding-left: 0;
+        padding-right: 48px;/*
+        padding-left: 48px;
+        padding-right: 48px;*/
+        margin: 0 12vw;
+
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width:100%;
+        padding-left: 25px;
+        padding-right: 25px;
+        margin: 0 12vw;
+
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        max-width:100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 0 12vw;
+
+    }
+}
+
+@media (min-width: 1600px) {
+    .container {
+        max-width:76vw;
+        margin: 0 12vw;
+        margin-left: 12vw;
+        padding-left: 0;
+        padding-right: 0/*
+        padding-left: 52px;
+        padding-right: 52px*/
+    }
+}
+/**/
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+    font-size: 15px;
+    line-height: 24px;
+    color: #fff;
+    font-feature-settings: "kern" 1;
+    background: #002159;
+    -webkit-tap-highlight-color: rgba(39,60,131,0.05)
+}
+
+input,select,textarea {
+    color: #1b1b1b;
+    font-size: 15px;
+    line-height: 24px
+}
+
+::-moz-selection {
+    background: rgba(39,60,131,0.05)
+}
+
+::selection {
+    background: rgba(39,60,131,0.05)
+}
+
+section {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1560px
+}
+/**/
+section.cred {
+    background-color: #0052C8;
+    position: relative;
+    margin: 0 auto;
+}
+
+body {
+    overflow: visible;
+    overflow-x: hidden
+}
+
+@media (min-width: 1440px) {
+    body {
+        font-size: 16px;
+        line-height: 26px
+    }
+
+    section {
+        max-width: 1690px
+    }
+}
+
+@media (min-width: 1600px) {
+    body {
+        font-size: 16px;
+        line-height: 26px
+    }
+
+    section {
+        max-width: 1690px
+    }
+}
+
+@media (max-width: 1024px) {
+    body {
+        font-size: 15px;
+        line-height: 24px
+    }
+
+    section {
+        max-width: 1560px
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+        line-height: 22px
+    }
+
+    section {
+        max-width: 1430px
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 13px;
+        line-height: 20px
+    }
+
+    section {
+        max-width: 1300px
+    }
+
+}
+
+
+/*****************************/
+
+button,input,optgroup,select,textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0
+}
+/*
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;500;700&family=Teko:wght@500&display=swap");html {
+    box-sizing: border-box;
+    font-size: 16px
+}
+
+*,*:before,*:after {
+    box-sizing: inherit
+}
+
+body,h1,h4,h5,h6,p,ol,ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal
+}
+
+::-moz-selection {
+    background: white
+}
+
+::selection {
+    background: white
+}
+
+html {
+    width: 100%;
+    overflow-x: hidden
+}
+
+body {
+    font-family: 'Overpass';
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden
+}
+
+body:before {
+    top: 0;
+    transform-origin: top
+}
+
+body:after {
+    bottom: 0;
+    transform-origin: bottom
+}
+
+*/
+/*
+html {
+    box-sizing: border-box
+}
+
+*,*:before,*:after {
+    box-sizing: inherit
+}
+
+html,body,div,span,h1,p,a,img,section,time {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline
+}
+
+section,main {
+    display: block
+}
+
+body {
+    background-color: #fff;
+    color: #091e42;
+    font-size: 16px;
+    height: 100%;
+    min-height: 100%;
+    line-height: 1
+}
+*/
+
+/*
+:root {
+    --bs-blue: #0058fe;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6100ff;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #f85f25;
+    --bs-yellow: #ffe600;
+    --bs-green: #36cb5f;
+    --bs-teal: #20c997;
+    --bs-cyan: #34c9ff;
+    --bs-white: #fff;
+    --bs-gray: #717393;
+    --bs-gray-dark: #343a40;
+    --bs-gray-100: #f8f9fa;
+    --bs-gray-200: #f8f9fb;
+    --bs-gray-300: #eeeef9;
+    --bs-gray-400: #ced4da;
+    --bs-gray-500: #adb5bd;
+    --bs-gray-600: #717393;
+    --bs-gray-700: #495057;
+    --bs-gray-800: #343a40;
+    --bs-gray-900: #212529;
+    --bs-black: #000;
+    --bs-white-rgb: 255,255,255;
+    --bs-black-rgb: 0,0,0;
+    --bs-body-color-rgb: 38,38,38;
+    --bs-body-bg-rgb: 255,255,255;
+    --bs-font-sans-serif: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --bs-gradient: linear-gradient(180deg,hsla(0,0%,100%,.15),hsla(0,0%,100%,0));
+    --bs-body-font-family: Montserrat,sans-serif;
+    --bs-body-font-size: 1rem;
+    --bs-body-font-weight: 500;
+    --bs-body-line-height: 1.5;
+    --bs-body-color: #262626;
+    --bs-body-bg: #fff
+}
+*/
+*,:after,:before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+/*
+body {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    background-color: var(--bs-body-bg);
+    color: var(--bs-body-color);
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    margin: 0;
+    text-align: var(--bs-body-text-align)
+}
+
+b,strong {
+    font-weight: bolder
+}
+
+a {
+    color: #0058fe;
+    text-decoration: underline
+}
+
+a:hover {
+    color: #0046cb
+}
+
+a:not([href]):not([class]),a:not([href]):not([class]):hover {
+    color: inherit;
+    text-decoration: none
+}
+
+figure {
+    margin: 0 0 1rem
+}
+/**
+img,svg {
+    vertical-align: middle
+}
+
+:root {
+    --body-width: calc(100vw - 16px);
+    --bp-mobile-menu: lg;
+    --bp-xs: 0;
+    --bp-sm: 576px;
+    --bp-md: 769px;
+    --bp-lg: 992px;
+    --bp-xl: 1200px;
+    --bp-xxl: 1440px;
+    --bp-xxxl: 9999px
+}
+
+a {
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out
+}
+/**/
+body,html {
+    overflow-x: hidden
+}
+
+html {
+    min-width: 320px;
+    overflow-y: scroll
+}
+/**/
+body {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    min-height: 100vh
+}
+/*
+@media(max-width: 768.98px) {
+    body {
+        background-color:#f8f9fb
+    }
+}
+/**/
+img {
+    height: auto;
+    max-width: 100%
+}

@@ -1,0 +1,194 @@
+/*!
+ * 
+ *       Name: SS-AIR
+ *       Description: The responsive theme for SS-AIR
+ *       website: http://
+ *       lastUpdate: 25/08/22 @ 29:46
+ *
+ */
+ html.js .image-wipe-reveal-animation {
+    -webkit-clip-path: polygon(0 100%,100% 100%,100% 100%,0 100%);
+    clip-path: polygon(0 100%,100% 100%,100% 100%,0 100%)
+}
+
+.module-image-grid-block {
+    padding-bottom: 77px;
+    padding-top: 77px
+}
+
+.module-image-grid-block .b-intro h2 {
+    max-width: 762px
+}
+
+@media(max-width: 1199.98px) {
+    .image-grid__block.-wide {
+        padding:0
+    }
+}
+
+.image-grid {
+    margin-top: 67.5px
+}
+
+@media(max-width: 1199.98px) {
+    .image-grid.-wide {
+        padding:0
+    }
+
+    .image-grid__wrapper {
+        flex-wrap: nowrap;
+        margin-left: 0
+    }
+}
+
+@media(min-width: 1200px) {
+    .image-grid__wrapper {
+        box-sizing:border-box
+    }
+}
+
+.image-grid__column {
+    display: flex;
+    margin-bottom: 24px
+}
+
+@media(max-width: 1199.98px) {
+    .image-grid__column {
+        padding:0
+    }
+}
+
+@media(min-width: 1200px) {
+    .image-grid__column {
+        height:auto
+    }
+}
+
+@media(max-width: 1199.98px) {
+    .image-grid__column.-wide {
+        padding:0;
+        width: 100%
+    }
+}
+
+.image-grid__column-container {
+    width: 100%
+}
+
+@media(min-width: 1200px) {
+    .image-grid__column-container {
+        position:relative
+    }
+
+    .image-grid__column-container:hover .image-grid__content {
+        opacity: 1;
+        visibility: visible;
+        z-index: 3
+    }
+}
+
+.image-grid__image {
+    display: flex;
+    position: relative
+}
+
+@media(min-width: 1200px) {
+    .image-grid__image {
+        height:100%
+    }
+}
+
+.image-grid__image .swiper-pagination {
+    height: calc(100% - 20px)
+}
+
+.img-fluid {
+    height: auto;
+    max-width: 100%
+}
+
+@media(min-width: 1200px) {
+    .image-grid__background {
+        height:100%;
+        width: 100%
+    }
+}
+
+.image-grid__background-img {
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%
+}
+
+@media(min-width: 1200px) {
+    .image-grid__background-img {
+        width:100%
+    }
+}
+
+.image-grid__content {
+    position: relative
+}
+
+@media(max-width: 1199.98px) {
+    .image-grid__content {
+        padding:20px 60px 40px
+    }
+}
+
+@media(max-width: 767.98px) {
+    .image-grid__content {
+        padding:20px 36px 40px
+    }
+}
+
+@media(min-width: 1200px) {
+    .image-grid__content {
+        color:#fff;
+        height: 100%;
+        left: 0;
+        opacity: 0;
+        padding: 60px;
+        position: absolute;
+        top: 0;
+        transition: opacity .4s,visibility .4s;
+        visibility: hidden;
+        width: 100%
+    }
+
+    .image-grid__content * {
+        position: relative;
+        z-index: 1
+    }
+
+    .image-grid__content:before {
+        background-color: #212832;
+        content: "";
+        height: 100%;
+        left: 0;
+        opacity: .95;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 0
+    }
+
+    .-hover-theme-1 .image-grid__content:before {
+        background-color: #fff
+    }
+
+    html.-page-theme-dark .image-grid__text p,html.-page-theme-dark .image-grid__title,section.-theme-1 .image-grid__text p,section.-theme-1 .image-grid__title,section.-theme-2 .image-grid__text p,section.-theme-2 .image-grid__title,section.-theme-3 .image-grid__text p,section.-theme-3 .image-grid__title,section.-theme-4 .image-grid__text p,section.-theme-4 .image-grid__title,section.-theme-5 .image-grid__text p,section.-theme-5 .image-grid__title {
+        color: #fff
+    }
+
+    .-hover-theme-1 .image-grid__text p,.-hover-theme-1 .image-grid__title,html.-page-theme-dark .-hover-theme-1 .image-grid__text p,html.-page-theme-dark .-hover-theme-1 .image-grid__title,section.-theme-1 .-hover-theme-1 .image-grid__text p,section.-theme-1 .-hover-theme-1 .image-grid__title,section.-theme-2 .-hover-theme-1 .image-grid__text p,section.-theme-2 .-hover-theme-1 .image-grid__title,section.-theme-3 .-hover-theme-1 .image-grid__text p,section.-theme-3 .-hover-theme-1 .image-grid__title,section.-theme-4 .-hover-theme-1 .image-grid__text p,section.-theme-4 .-hover-theme-1 .image-grid__title,section.-theme-5 .-hover-theme-1 .image-grid__text p,section.-theme-5 .-hover-theme-1 .image-grid__title {
+        color: #000
+    }
+}
+
+@media(max-width: 1199.98px) {
+    .-ratio-2x1 {
+        --bs-aspect-ratio:100%
+    }
+}

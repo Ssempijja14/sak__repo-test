@@ -1,0 +1,157 @@
+
+.pricing__card p {
+    margin-bottom: 1rem !important
+}
+
+.pricing__card a {
+    margin-bottom: 0 !important
+}
+
+.pricing__card ul p,  
+.pricing__card ul,  
+.pricing__card a {
+    margin-top: 0 !important
+}
+
+.pricing__card p {
+    font-size: 1.25rem
+}
+
+.features__list {
+    margin-bottom: 2rem!important;
+    padding-left: 0px !important
+}
+
+/*
+body .mdc-button {
+    font-size: .875rem;
+}
+
+html body .cta .mdc-button,
+html body .addCartCTA .mdc-button{
+    min-height: 3.25rem;
+}
+
+.mdc-button {
+    font-family: ' Work Sans', Helvetica, sans-serif;
+}
+
+/*
+.mdc-theme-primary,
+.mdc-theme-primary a {
+    color: #0D47FB;
+    border-color: #0D47FB;
+}
+/*
+button.mdc-button,
+a.mdc-button,
+body .mdc-button {
+    font-weight: 700;
+    font-size: .875rem;
+    letter-spacing: .0125rem;
+}
+
+body .mdc-button:hover {
+    background-color: rgba(13, 71, 251, 0.1);
+}
+
+body .mdc-button.mdc-button--raised:hover {
+    background-color: #0A39C9;
+}
+
+body .mdc-button {
+    padding: 0 1.5rem;
+    border-radius: 0px;
+    min-width: 120px;
+}
+
+body .mdc-button.mdc-button--raised {
+    padding: 0 1.5rem;
+}
+
+body .mdc-button--raised::before,
+body .mdc-button--raised::after,
+body .mdc-button--raised:not(:disabled) {
+    background-color: #0D47FB;
+}
+
+/*****************************/
+/*****************************/
+/*****************************/
+/*****************************/
+/*****************************/
+/*****************************/
+/*****************************/
+/*****************************/
+.responsive-columns__row--center {
+    text-align: center
+}
+
+@media only screen and (min-width: 576px) {
+    .responsive-columns__row--desktop-left {
+        text-align:left
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .ptMobile-25 {
+        padding-top:25px!important
+    }
+
+    .pbMobile-25 {
+        padding-bottom: 25px!important
+    }
+}
+
+.pt-50 {
+    padding-top: 50px
+}
+
+.pb-50 {
+    padding-bottom: 50px
+}
+
+.p-xy {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.cmp-separator.cmp-separator_padding-10 {
+    padding: 10px 0
+}
+
+/*
+body .cta .mdc-button {
+    height: auto;
+    min-height: 2.5rem;
+    padding: 0 1.75rem
+}
+*/
+
+.cmp-text {
+    font-family: Futura Light;
+    color: #FFC917;
+    padding-left: 20px;
+}
+
+.cmp-cta {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.cmp-cta__cta--center {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center
+}
+
+@media only screen and (max-width: 575px) {
+    .cmp-cta__ctaMobile--center {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        text-align: center
+    }
+}
